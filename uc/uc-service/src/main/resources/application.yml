@@ -1,0 +1,11 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: uc-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://liusk:discovery@localhost:8762/eureka/
